@@ -1,0 +1,4 @@
+{
+  "prompt": "Explain MCP briefly",
+  "session_id": "realtest"
+}

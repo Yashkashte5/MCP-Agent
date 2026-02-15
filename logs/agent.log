@@ -1,0 +1,5 @@
+2026-02-15 11:15:47,634 | INFO | mcp-agent | Agent request | session=realtest
+2026-02-15 11:15:47,635 | INFO | mcp-agent | Agent decision | llm_response
+2026-02-15 11:15:47,635 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 11:15:48,603 | INFO | mcp-agent | Primary LLM success
+2026-02-15 11:15:48,603 | INFO | mcp-agent | Agent response generated | session=realtest
