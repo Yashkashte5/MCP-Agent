@@ -1,7 +1,7 @@
-
 .env
-app/logs/agent.log
+
+memory.db
+
+logs/
+
 __pycache__/
-test.txt
-app/__pycache__/
-app/llm/__pycache__/

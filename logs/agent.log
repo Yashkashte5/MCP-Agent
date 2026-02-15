@@ -3,3 +3,94 @@
 2026-02-15 11:15:47,635 | INFO | mcp-agent | LLM request | provider=groq
 2026-02-15 11:15:48,603 | INFO | mcp-agent | Primary LLM success
 2026-02-15 11:15:48,603 | INFO | mcp-agent | Agent response generated | session=realtest
+2026-02-15 12:52:50,265 | INFO | mcp-agent | Agent request | session=demo
+2026-02-15 12:52:50,266 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 12:52:51,242 | INFO | mcp-agent | Primary LLM success
+2026-02-15 12:52:51,243 | INFO | mcp-agent | LLM decision received
+2026-02-15 12:52:51,243 | INFO | mcp-agent | Tool chosen by LLM: basic_stats
+2026-02-15 12:52:51,243 | INFO | mcp-agent | Tool execution requested | tool=basic_stats | session=demo
+2026-02-15 12:52:51,244 | INFO | mcp-agent | Executing tool | tool=basic_stats | params={'text': 'AI agents are amazing.'}
+2026-02-15 12:52:51,244 | INFO | mcp-agent | Tool execution success | tool=basic_stats
+2026-02-15 13:03:08,876 | INFO | mcp-agent | Agent request | session=demo
+2026-02-15 13:03:08,876 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 13:03:09,541 | INFO | mcp-agent | Primary LLM success
+2026-02-15 13:03:09,541 | INFO | mcp-agent | LLM decision received
+2026-02-15 13:03:09,542 | INFO | mcp-agent | Tool chosen by LLM: basic_stats
+2026-02-15 13:03:09,542 | INFO | mcp-agent | Tool execution requested | tool=basic_stats | session=demo
+2026-02-15 13:03:09,542 | INFO | mcp-agent | Executing tool | tool=basic_stats | params={'text': 'AI agents rock.'}
+2026-02-15 13:03:09,542 | INFO | mcp-agent | Tool execution success | tool=basic_stats
+2026-02-15 13:20:35,742 | INFO | mcp-agent | Agent request | session=demo
+2026-02-15 13:20:35,743 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 13:20:36,551 | INFO | mcp-agent | Primary LLM success
+2026-02-15 13:20:36,552 | INFO | mcp-agent | LLM decision received
+2026-02-15 13:20:36,552 | INFO | mcp-agent | Tool chosen by LLM: basic_stats
+2026-02-15 13:20:36,552 | INFO | mcp-agent | Tool execution requested | tool=basic_stats | session=demo
+2026-02-15 13:20:36,552 | INFO | mcp-agent | Executing tool | tool=basic_stats | params={'text': 'AI agents rock.'}
+2026-02-15 13:20:36,553 | INFO | mcp-agent | Tool execution success | tool=basic_stats
+2026-02-15 13:21:36,056 | INFO | mcp-agent | Agent request | session=demo
+2026-02-15 13:21:36,056 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 13:21:36,849 | INFO | mcp-agent | Primary LLM success
+2026-02-15 13:21:36,849 | INFO | mcp-agent | LLM decision received
+2026-02-15 13:21:36,849 | INFO | mcp-agent | Tool chosen by LLM: summarize_text
+2026-02-15 13:21:36,849 | INFO | mcp-agent | Tool execution requested | tool=summarize_text | session=demo
+2026-02-15 13:21:36,849 | INFO | mcp-agent | Executing tool | tool=summarize_text | params={'text': 'Groq is an AI inference technology company known for its Language Processing Unit (LPU) that delivers ultra-fast, low-latency AI performance for large language models (LLMs). Founded in 2016 by former Google engineers, it provides a specialized, software-defined architecture that enables near-instantaneous responses, significantly outpacing traditional GPUs.'}
+2026-02-15 13:21:36,849 | INFO | mcp-agent | Tool execution success | tool=summarize_text
+2026-02-15 13:26:21,266 | INFO | mcp-agent | Agent request | session=demo
+2026-02-15 13:26:21,266 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 13:26:22,177 | INFO | mcp-agent | Primary LLM success
+2026-02-15 13:26:22,177 | INFO | mcp-agent | LLM decision received
+2026-02-15 13:26:22,177 | INFO | mcp-agent | Tool chosen by LLM: summarize_text
+2026-02-15 13:26:22,177 | INFO | mcp-agent | Tool execution requested | tool=summarize_text | session=demo
+2026-02-15 13:26:22,178 | INFO | mcp-agent | Executing tool | tool=summarize_text | params={'text': 'Groq is an AI inference technology company known for its Language Processing Unit (LPU) that delivers ultra-fast, low-latency AI performance for large language models (LLMs). Founded in 2016 by former Google engineers, it provides a specialized, software-defined architecture that enables near-instantaneous responses, significantly outpacing traditional GPUs.'}
+2026-02-15 13:26:22,178 | INFO | mcp-agent | Tool execution success | tool=summarize_text
+2026-02-15 13:26:31,545 | INFO | mcp-agent | Agent request | session=demo
+2026-02-15 13:26:31,545 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 13:26:32,278 | INFO | mcp-agent | Primary LLM success
+2026-02-15 13:26:32,278 | INFO | mcp-agent | LLM decision received
+2026-02-15 13:26:32,278 | INFO | mcp-agent | Tool chosen by LLM: summarize_text
+2026-02-15 13:26:32,279 | INFO | mcp-agent | Tool execution requested | tool=summarize_text | session=demo
+2026-02-15 13:26:32,279 | INFO | mcp-agent | Executing tool | tool=summarize_text | params={'text': 'Groq is an AI inference technology company known for its Language Processing Unit (LPU) that delivers ultra-fast, low-latency AI performance for large language models (LLMs). Founded in 2016 by former Google engineers, it provides a specialized, software-defined architecture that enables near-instantaneous responses, significantly outpacing traditional GPUs.'}
+2026-02-15 13:26:32,279 | INFO | mcp-agent | Tool execution success | tool=summarize_text
+2026-02-15 13:29:29,175 | INFO | mcp-agent | Agent request | session=demo
+2026-02-15 13:29:29,177 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 13:29:30,058 | INFO | mcp-agent | Primary LLM success
+2026-02-15 13:29:30,059 | INFO | mcp-agent | LLM decision received
+2026-02-15 13:29:30,059 | INFO | mcp-agent | Tool chosen by LLM: summarize_text
+2026-02-15 13:29:36,268 | INFO | mcp-agent | Agent request | session=demo
+2026-02-15 13:29:36,268 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 13:29:36,988 | INFO | mcp-agent | Primary LLM success
+2026-02-15 13:29:36,988 | INFO | mcp-agent | LLM decision received
+2026-02-15 13:29:36,988 | INFO | mcp-agent | Tool chosen by LLM: summarize_text
+2026-02-15 13:32:48,971 | INFO | mcp-agent | Agent request | session=demo
+2026-02-15 13:32:48,971 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 13:32:49,860 | INFO | mcp-agent | Primary LLM success
+2026-02-15 13:32:49,860 | INFO | mcp-agent | LLM decision received
+2026-02-15 13:32:49,861 | INFO | mcp-agent | Tool chosen by LLM: summarize_text
+2026-02-15 13:32:49,861 | INFO | mcp-agent | Executing tool | tool=summarize_text | params={'text': 'Groq is an AI inference technology company known for its Language Processing Unit (LPU) that delivers ultra-fast, low-latency AI performance for large language models (LLMs). Founded in 2016 by former Google engineers, it provides a specialized, software-defined architecture that enables near-instantaneous responses, significantly outpacing traditional GPUs.'}
+2026-02-15 13:32:49,861 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 13:32:50,620 | INFO | mcp-agent | Primary LLM success
+2026-02-15 13:32:50,620 | INFO | mcp-agent | Tool execution success | tool=summarize_text
+2026-02-15 14:20:29,371 | INFO | mcp-agent | Agent request | session=default
+2026-02-15 14:20:29,380 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 14:20:30,207 | INFO | mcp-agent | Primary LLM success
+2026-02-15 14:20:30,207 | INFO | mcp-agent | LLM decision received
+2026-02-15 14:20:42,031 | INFO | mcp-agent | Agent request | session=default
+2026-02-15 14:20:42,042 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 14:20:42,647 | INFO | mcp-agent | Primary LLM success
+2026-02-15 14:20:42,647 | INFO | mcp-agent | LLM decision received
+2026-02-15 14:21:07,719 | INFO | mcp-agent | Agent request | session=default
+2026-02-15 14:21:07,730 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 14:21:08,403 | INFO | mcp-agent | Primary LLM success
+2026-02-15 14:21:08,403 | INFO | mcp-agent | LLM decision received
+2026-02-15 14:28:59,655 | INFO | mcp-agent | Agent request | session=default
+2026-02-15 14:28:59,665 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 14:29:00,420 | INFO | mcp-agent | Primary LLM success
+2026-02-15 14:29:00,420 | INFO | mcp-agent | LLM decision received
+2026-02-15 14:29:16,271 | INFO | mcp-agent | Agent request | session=default
+2026-02-15 14:29:16,283 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 14:29:17,008 | INFO | mcp-agent | Primary LLM success
+2026-02-15 14:29:17,009 | INFO | mcp-agent | LLM decision received
+2026-02-15 14:29:51,020 | INFO | mcp-agent | Agent request | session=default
+2026-02-15 14:29:51,039 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 14:29:51,774 | INFO | mcp-agent | Primary LLM success
+2026-02-15 14:29:51,775 | INFO | mcp-agent | LLM decision received

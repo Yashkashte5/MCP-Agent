@@ -1,20 +1,13 @@
-from collections import defaultdict
-from datetime import datetime
+from app.mcp.memory_db import save_memory, get_memory
 
 
 class ContextManager:
-    def __init__(self):
-        self.sessions = defaultdict(list)
 
-    def save(self, session_id: str, role: str, content: dict):
-        self.sessions[session_id].append({
-            "role": role,
-            "content": content,
-            "timestamp": datetime.utcnow().isoformat()
-        })
+    def save(self, session_id, role, content):
+        save_memory(session_id, role, content)
 
-    def get(self, session_id: str):
-        return self.sessions.get(session_id, [])
+    def get(self, session_id):
+        return get_memory(session_id)
 
 
 context_manager = ContextManager()
