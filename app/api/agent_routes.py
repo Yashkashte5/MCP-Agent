@@ -9,15 +9,6 @@ router_api = APIRouter()
 class PromptRequest(BaseModel):
     prompt: str
 
-
-@router_api.post("/llm/test")
-async def llm_test(req: PromptRequest):
-    response = await router.generate(req.prompt)
-    return {"response": response}
-
-
-
-
 class AgentRequest(BaseModel):
     prompt: str
     session_id: str = "default"

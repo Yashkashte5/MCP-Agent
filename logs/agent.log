@@ -94,3 +94,300 @@
 2026-02-15 14:29:51,039 | INFO | mcp-agent | LLM request | provider=groq
 2026-02-15 14:29:51,774 | INFO | mcp-agent | Primary LLM success
 2026-02-15 14:29:51,775 | INFO | mcp-agent | LLM decision received
+2026-02-15 16:39:23,981 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 16:39:26,500 | INFO | mcp-agent | Primary LLM success
+2026-02-15 16:40:29,262 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 16:40:30,486 | INFO | mcp-agent | Primary LLM success
+2026-02-15 16:41:44,408 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 16:41:45,121 | INFO | mcp-agent | Primary LLM success
+2026-02-15 16:42:22,824 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 16:42:24,587 | INFO | mcp-agent | Primary LLM success
+2026-02-15 16:42:44,224 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 16:42:44,934 | INFO | mcp-agent | Primary LLM success
+2026-02-15 16:52:06,795 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 16:52:07,440 | INFO | mcp-agent | Primary LLM success
+2026-02-15 16:52:16,427 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 16:52:17,108 | INFO | mcp-agent | Primary LLM success
+2026-02-15 16:56:33,851 | INFO | mcp-agent | Agent request | session=default
+2026-02-15 16:56:33,866 | INFO | mcp-agent | Agent step 1
+2026-02-15 16:56:33,867 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 16:56:34,738 | INFO | mcp-agent | Primary LLM success
+2026-02-15 16:56:54,874 | INFO | mcp-agent | Agent request | session=default
+2026-02-15 16:56:54,891 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 16:56:55,794 | INFO | mcp-agent | Primary LLM success
+2026-02-15 16:56:55,802 | INFO | mcp-agent | Agent step 1
+2026-02-15 16:56:55,802 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 16:56:56,591 | INFO | mcp-agent | Primary LLM success
+2026-02-15 16:57:21,689 | INFO | mcp-agent | Agent request | session=default
+2026-02-15 16:57:21,704 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 16:57:22,726 | INFO | mcp-agent | Primary LLM success
+2026-02-15 16:57:22,736 | INFO | mcp-agent | Agent step 1
+2026-02-15 16:57:22,736 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 16:57:23,506 | INFO | mcp-agent | Primary LLM success
+2026-02-15 16:57:23,506 | INFO | mcp-agent | Tool chosen: summarize_text
+2026-02-15 16:57:23,507 | INFO | mcp-agent | Executing tool | tool=summarize_text | params={'text': 'LLM Agents, or Large Language Model Agents, are a type of artificial intelligence designed to process and understand human language. They are trained on vast amounts of text data, which enables them to generate human-like responses to a wide range of questions and topics. LLM Agents can be used in various applications, such as virtual assistants, chatbots, and language translation software. They have the ability to learn and improve over time, making them a powerful tool for businesses and individuals alike.'}
+2026-02-15 16:57:23,507 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 16:57:24,173 | INFO | mcp-agent | Primary LLM success
+2026-02-15 16:57:24,179 | INFO | mcp-agent | Tool execution success | tool=summarize_text
+2026-02-15 16:57:24,179 | INFO | mcp-agent | Agent step 2
+2026-02-15 16:57:24,179 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 16:57:24,812 | INFO | mcp-agent | Primary LLM success
+2026-02-15 17:43:16,084 | INFO | mcp-agent | Agent request | session=default
+2026-02-15 17:43:16,094 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 17:43:16,854 | INFO | mcp-agent | Primary LLM success
+2026-02-15 17:43:16,855 | INFO | mcp-agent | Execution plan: {'steps': [{'action': 'summarize_text', 'tool_name': 'summarize_text', 'purpose': 'to summarize the text about groq'}]}
+2026-02-15 17:43:16,855 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 17:43:17,972 | INFO | mcp-agent | Primary LLM success
+2026-02-15 17:43:17,988 | INFO | mcp-agent | Agent step 1
+2026-02-15 17:43:17,989 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 17:43:18,664 | INFO | mcp-agent | Primary LLM success
+2026-02-15 17:43:41,578 | INFO | mcp-agent | Agent request | session=default
+2026-02-15 17:43:41,588 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 17:43:42,260 | INFO | mcp-agent | Primary LLM success
+2026-02-15 17:43:42,260 | INFO | mcp-agent | Execution plan: {'steps': [{'action': 'tool/chat', 'tool_name': 'basic_stats', 'purpose': "to understand the context of 'groq' by analyzing the given text"}]}
+2026-02-15 17:43:42,260 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 17:43:43,337 | INFO | mcp-agent | Primary LLM success
+2026-02-15 17:43:43,346 | INFO | mcp-agent | Agent step 1
+2026-02-15 17:43:43,346 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 17:43:44,116 | INFO | mcp-agent | Primary LLM success
+2026-02-15 17:44:08,030 | INFO | mcp-agent | Agent request | session=default
+2026-02-15 17:44:08,039 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 17:44:08,726 | INFO | mcp-agent | Primary LLM success
+2026-02-15 17:44:08,726 | INFO | mcp-agent | Execution plan: {'steps': [{'action': 'tool/chat', 'tool_name': 'summarize_text', 'purpose': 'to provide a brief overview of Groq'}]}
+2026-02-15 17:44:08,726 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 17:44:09,807 | INFO | mcp-agent | Primary LLM success
+2026-02-15 17:44:09,814 | INFO | mcp-agent | Agent step 1
+2026-02-15 17:44:09,814 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 17:44:10,535 | INFO | mcp-agent | Primary LLM success
+2026-02-15 17:44:49,886 | INFO | mcp-agent | Agent request | session=default
+2026-02-15 17:44:49,905 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 17:44:50,567 | INFO | mcp-agent | Primary LLM success
+2026-02-15 17:44:50,568 | INFO | mcp-agent | Execution plan: {'steps': [{'action': 'tool/chat', 'tool_name': 'basic_stats', 'purpose': 'to provide a basic understanding of the given text about LLM agent'}]}
+2026-02-15 17:44:50,568 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 17:44:51,630 | INFO | mcp-agent | Primary LLM success
+2026-02-15 17:44:51,637 | INFO | mcp-agent | Agent step 1
+2026-02-15 17:44:51,637 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 17:44:52,393 | INFO | mcp-agent | Primary LLM success
+2026-02-15 17:45:10,693 | INFO | mcp-agent | Agent request | session=default
+2026-02-15 17:45:10,701 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 17:45:11,449 | INFO | mcp-agent | Primary LLM success
+2026-02-15 17:45:11,450 | INFO | mcp-agent | Execution plan: {'steps': [{'action': 'summarize_text', 'tool_name': 'summarize_text', 'purpose': 'to provide a concise overview of LLM agent'}, {'action': 'basic_stats', 'tool_name': 'basic_stats', 'purpose': 'to analyze the complexity of the generated summary'}]}
+2026-02-15 17:45:11,450 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 17:45:12,611 | INFO | mcp-agent | Primary LLM success
+2026-02-15 17:45:12,618 | INFO | mcp-agent | Agent step 1
+2026-02-15 17:45:12,619 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 17:45:13,681 | INFO | mcp-agent | Primary LLM success
+2026-02-15 17:45:25,257 | INFO | mcp-agent | Agent request | session=default
+2026-02-15 17:45:25,268 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 17:45:26,046 | INFO | mcp-agent | Primary LLM success
+2026-02-15 17:45:26,047 | INFO | mcp-agent | Execution plan: {'steps': [{'action': 'summarize_text', 'tool_name': 'summarize_text', 'purpose': 'To provide a concise overview of the LLM agent'}]}
+2026-02-15 17:45:26,047 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 17:45:27,218 | INFO | mcp-agent | Primary LLM success
+2026-02-15 17:45:27,226 | INFO | mcp-agent | Agent step 1
+2026-02-15 17:45:27,226 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 17:45:27,944 | INFO | mcp-agent | Primary LLM success
+2026-02-15 17:46:06,896 | INFO | mcp-agent | Agent request | session=default
+2026-02-15 17:46:06,908 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 17:46:07,722 | INFO | mcp-agent | Primary LLM success
+2026-02-15 17:46:07,723 | INFO | mcp-agent | Execution plan: {'steps': [{'action': 'count_words', 'tool_name': 'basic_stats', 'purpose': 'to count the words in the given text'}]}
+2026-02-15 17:46:07,723 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 17:46:09,014 | INFO | mcp-agent | Primary LLM success
+2026-02-15 17:46:09,030 | INFO | mcp-agent | Agent step 1
+2026-02-15 17:46:09,031 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 17:46:09,875 | INFO | mcp-agent | Primary LLM success
+2026-02-15 17:46:09,875 | INFO | mcp-agent | Tool chosen: basic_stats
+2026-02-15 17:46:09,876 | INFO | mcp-agent | Executing tool | tool=basic_stats | params={'text': 'LLM Agents are AI models that generate human-like language responses. They are trained on vast text data, allowing them to learn patterns and relationships within language. LLM Agents can understand and respond to natural language inputs, generate coherent text, and improve over time. They have various applications, including virtual assistants, chatbots, and language translation, and operate using complex algorithms and neural networks.'}
+2026-02-15 17:46:09,889 | INFO | mcp-agent | Tool execution success | tool=basic_stats
+2026-02-15 17:46:09,890 | INFO | mcp-agent | Agent step 2
+2026-02-15 17:46:09,890 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 17:46:10,642 | INFO | mcp-agent | Primary LLM success
+2026-02-15 17:46:49,332 | INFO | mcp-agent | Agent request | session=default
+2026-02-15 17:46:49,351 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 17:46:50,056 | INFO | mcp-agent | Primary LLM success
+2026-02-15 17:46:50,056 | INFO | mcp-agent | Execution plan: {'steps': [{'action': 'tool/chat', 'tool_name': 'basic_stats', 'purpose': 'to provide basic information about AI agents'}, {'action': 'tool/chat', 'tool_name': 'summarize_text', 'purpose': 'to summarize the key points about AI agents'}]}
+2026-02-15 17:46:50,057 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 17:46:51,380 | INFO | mcp-agent | Primary LLM success
+2026-02-15 17:46:51,388 | INFO | mcp-agent | Agent step 1
+2026-02-15 17:46:51,388 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 17:46:52,070 | INFO | mcp-agent | Primary LLM success
+2026-02-15 17:48:40,759 | INFO | mcp-agent | Agent request | session=default
+2026-02-15 17:48:40,769 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 17:48:41,631 | INFO | mcp-agent | Primary LLM success
+2026-02-15 17:48:41,631 | INFO | mcp-agent | Execution plan: {'steps': [{'action': 'tool/chat', 'tool_name': 'none', 'purpose': "No discussion has occurred yet, so there's nothing to report."}]}
+2026-02-15 17:48:41,632 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 17:48:42,853 | INFO | mcp-agent | Primary LLM success
+2026-02-15 17:48:42,862 | INFO | mcp-agent | Agent step 1
+2026-02-15 17:48:42,863 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 17:48:43,736 | INFO | mcp-agent | Primary LLM success
+2026-02-15 17:58:46,003 | INFO | mcp-agent | Agent request | session=default
+2026-02-15 17:58:46,014 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 17:58:46,792 | INFO | mcp-agent | Primary LLM success
+2026-02-15 17:58:46,792 | INFO | mcp-agent | Execution plan: {'steps': [{'action': 'summarize_text', 'tool_name': 'summarize_text', 'purpose': 'to condense the input text into a shorter summary'}]}
+2026-02-15 17:58:46,793 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 17:58:48,043 | INFO | mcp-agent | Primary LLM success
+2026-02-15 17:58:48,057 | INFO | mcp-agent | Agent step 1
+2026-02-15 17:58:48,058 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 17:58:48,918 | INFO | mcp-agent | Primary LLM success
+2026-02-15 17:58:48,920 | INFO | mcp-agent | Tool chosen: summarize_text
+2026-02-15 17:58:48,920 | INFO | mcp-agent | Executing tool | tool=summarize_text | params={'text': 'An Application Programming Interface, or API, serves as a digital bridge that allows two distinct software applications to communicate and exchange data with one another without needing to understand the complexities of each other’s internal code. Think of it as a translator at a global summit; one system makes a request through the API, and the API delivers that request to the second system and returns the response in a format the first system can understand. This process is what enables you to check the weather on your phone using data from a third-party meteorological service or pay for an item using a digital wallet integrated into a retail website. By providing a standardized set of rules and protocols, APIs allow developers to build on existing functionality rather than starting from scratch, which accelerates innovation and creates a more interconnected digital ecosystem.'}
+2026-02-15 17:58:48,921 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 17:58:49,620 | INFO | mcp-agent | Primary LLM success
+2026-02-15 17:58:49,624 | INFO | mcp-agent | Tool execution success | tool=summarize_text
+2026-02-15 17:58:49,624 | INFO | mcp-agent | Agent step 2
+2026-02-15 17:58:49,626 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 17:58:50,479 | INFO | mcp-agent | Primary LLM success
+2026-02-15 17:58:50,479 | INFO | mcp-agent | Tool chosen: summarize_text
+2026-02-15 17:58:50,479 | INFO | mcp-agent | Executing tool | tool=summarize_text | params={'text': 'An Application Programming Interface, or API, serves as a digital bridge that allows two distinct software applications to communicate and exchange data with one another without needing to understand the complexities of each other’s internal code. Think of it as a translator at a global summit; one system makes a request through the API, and the API delivers that request to the second system and returns the response in a format the first system can understand. This process is what enables you to check the weather on your phone using data from a third-party meteorological service or pay for an item using a digital wallet integrated into a retail website. By providing a standardized set of rules and protocols, APIs allow developers to build on existing functionality rather than starting from scratch, which accelerates innovation and creates a more interconnected digital ecosystem.'}
+2026-02-15 17:58:50,480 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 17:58:51,134 | INFO | mcp-agent | Primary LLM success
+2026-02-15 17:58:51,141 | INFO | mcp-agent | Tool execution success | tool=summarize_text
+2026-02-15 17:58:51,141 | INFO | mcp-agent | Agent step 3
+2026-02-15 17:58:51,141 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 17:58:51,818 | INFO | mcp-agent | Primary LLM success
+2026-02-15 17:59:16,819 | INFO | mcp-agent | Agent request | session=default
+2026-02-15 17:59:16,858 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 17:59:17,524 | INFO | mcp-agent | Primary LLM success
+2026-02-15 17:59:17,524 | INFO | mcp-agent | Execution plan: {'steps': [{'action': 'basic_stats', 'tool_name': 'basic_stats', 'purpose': 'count words in the given text'}]}
+2026-02-15 17:59:17,524 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 17:59:18,688 | INFO | mcp-agent | Primary LLM success
+2026-02-15 17:59:18,697 | INFO | mcp-agent | Agent step 1
+2026-02-15 17:59:18,697 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 17:59:19,708 | INFO | mcp-agent | Primary LLM success
+2026-02-15 17:59:19,708 | INFO | mcp-agent | Tool chosen: basic_stats
+2026-02-15 17:59:19,708 | INFO | mcp-agent | Executing tool | tool=basic_stats | params={'text': 'An Application Programming Interface, or API, serves as a digital bridge that allows two distinct software applications to communicate and exchange data with one another without needing to understand the complexities of each other’s internal code. Think of it as a translator at a global summit; one system makes a request through the API, and the API delivers that request to the second system and returns the response in a format the first system can understand. This process is what enables you to check the weather on your phone using data from a third-party meteorological service or pay for an item using a digital wallet integrated into a retail website. By providing a standardized set of rules and protocols, APIs allow developers to build on existing functionality rather than starting from scratch, which accelerates innovation and creates a more interconnected digital ecosystem.'}
+2026-02-15 17:59:19,725 | INFO | mcp-agent | Tool execution success | tool=basic_stats
+2026-02-15 17:59:19,725 | INFO | mcp-agent | Agent step 2
+2026-02-15 17:59:19,726 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 17:59:20,674 | INFO | mcp-agent | Primary LLM success
+2026-02-15 17:59:20,674 | INFO | mcp-agent | Tool chosen: basic_stats
+2026-02-15 17:59:20,674 | INFO | mcp-agent | Executing tool | tool=basic_stats | params={'text': 'An Application Programming Interface, or API, serves as a digital bridge that allows two distinct software applications to communicate and exchange data with one another without needing to understand the complexities of each other’s internal code. Think of it as a translator at a global summit; one system makes a request through the API, and the API delivers that request to the second system and returns the response in a format the first system can understand. This process is what enables you to check the weather on your phone using data from a third-party meteorological service or pay for an item using a digital wallet integrated into a retail website. By providing a standardized set of rules and protocols, APIs allow developers to build on existing functionality rather than starting from scratch, which accelerates innovation and creates a more interconnected digital ecosystem.'}
+2026-02-15 17:59:20,680 | INFO | mcp-agent | Tool execution success | tool=basic_stats
+2026-02-15 17:59:20,681 | INFO | mcp-agent | Agent step 3
+2026-02-15 17:59:20,681 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 17:59:21,564 | INFO | mcp-agent | Primary LLM success
+2026-02-15 17:59:21,565 | INFO | mcp-agent | Tool chosen: basic_stats
+2026-02-15 17:59:21,565 | INFO | mcp-agent | Executing tool | tool=basic_stats | params={'text': 'An Application Programming Interface, or API, serves as a digital bridge that allows two distinct software applications to communicate and exchange data with one another without needing to understand the complexities of each other’s internal code. Think of it as a translator at a global summit; one system makes a request through the API, and the API delivers that request to the second system and returns the response in a format the first system can understand. This process is what enables you to check the weather on your phone using data from a third-party meteorological service or pay for an item using a digital wallet integrated into a retail website. By providing a standardized set of rules and protocols, APIs allow developers to build on existing functionality rather than starting from scratch, which accelerates innovation and creates a more interconnected digital ecosystem.'}
+2026-02-15 17:59:21,578 | INFO | mcp-agent | Tool execution success | tool=basic_stats
+2026-02-15 17:59:35,697 | INFO | mcp-agent | Agent request | session=default
+2026-02-15 17:59:35,713 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 17:59:36,361 | INFO | mcp-agent | Primary LLM success
+2026-02-15 17:59:36,362 | INFO | mcp-agent | Execution plan: {'steps': [{'action': 'execute', 'tool_name': 'basic_stats', 'purpose': 'to count the words in the given text'}]}
+2026-02-15 17:59:36,362 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 17:59:37,374 | INFO | mcp-agent | Primary LLM success
+2026-02-15 17:59:37,391 | INFO | mcp-agent | Agent step 1
+2026-02-15 17:59:37,391 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 17:59:38,448 | INFO | mcp-agent | Primary LLM success
+2026-02-15 17:59:38,448 | INFO | mcp-agent | Tool chosen: basic_stats
+2026-02-15 17:59:38,449 | INFO | mcp-agent | Executing tool | tool=basic_stats | params={'text': 'An Application Programming Interface, or API, serves as a digital bridge that allows two distinct software applications to communicate and exchange data with one another without needing to understand the complexities of each other’s internal code. Think of it as a translator at a global summit; one system makes a request through the API, and the API delivers that request to the second system and returns the response in a format the first system can understand. This process is what enables you to check the weather on your phone using data from a third-party meteorological service or pay for an item using a digital wallet integrated into a retail website. By providing a standardized set of rules and protocols, APIs allow developers to build on existing functionality rather than starting from scratch, which accelerates innovation and creates a more interconnected digital ecosystem.'}
+2026-02-15 17:59:38,461 | INFO | mcp-agent | Tool execution success | tool=basic_stats
+2026-02-15 17:59:38,462 | INFO | mcp-agent | Agent step 2
+2026-02-15 17:59:38,462 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 17:59:39,150 | INFO | mcp-agent | Primary LLM success
+2026-02-15 18:00:38,278 | INFO | mcp-agent | Agent request | session=default
+2026-02-15 18:00:38,294 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 18:00:39,098 | INFO | mcp-agent | Primary LLM success
+2026-02-15 18:00:39,098 | INFO | mcp-agent | Execution plan: {'steps': [{'action': 'describe AI agents briefly', 'tool_name': 'basic_stats', 'purpose': 'to provide a foundation for the explanation'}]}
+2026-02-15 18:00:39,099 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 18:00:40,238 | INFO | mcp-agent | Primary LLM success
+2026-02-15 18:00:40,251 | INFO | mcp-agent | Agent step 1
+2026-02-15 18:00:40,251 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 18:00:41,142 | INFO | mcp-agent | Primary LLM success
+2026-02-15 18:37:18,090 | INFO | mcp-agent | Agent request | session=default
+2026-02-15 18:37:18,099 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 18:37:19,144 | INFO | mcp-agent | Primary LLM success
+2026-02-15 18:37:19,154 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 18:37:19,756 | INFO | mcp-agent | Primary LLM success
+2026-02-15 18:37:19,756 | INFO | mcp-agent | Execution plan: {'steps': [{'action': 'tool/chat', 'tool_name': 'chat', 'purpose': 'initial greeting response'}]}
+2026-02-15 18:37:19,757 | INFO | mcp-agent | Agent step 1
+2026-02-15 18:37:19,757 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 18:37:20,400 | INFO | mcp-agent | Primary LLM success
+2026-02-15 18:38:00,645 | INFO | mcp-agent | Agent request | session=default
+2026-02-15 18:38:00,662 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 18:38:01,867 | INFO | mcp-agent | Primary LLM success
+2026-02-15 18:38:01,874 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 18:38:02,583 | INFO | mcp-agent | Primary LLM success
+2026-02-15 18:38:02,583 | INFO | mcp-agent | Execution plan: {'steps': [{'action': 'summarize_text', 'tool_name': 'summarize_text', 'purpose': 'to condense the given information about AI agents into a shorter form'}]}
+2026-02-15 18:38:02,584 | INFO | mcp-agent | Agent step 1
+2026-02-15 18:38:02,584 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 18:38:03,312 | INFO | mcp-agent | Primary LLM success
+2026-02-15 18:38:03,312 | INFO | mcp-agent | Tool chosen: summarize_text
+2026-02-15 18:38:03,312 | INFO | mcp-agent | Executing tool | tool=summarize_text | params={'text': 'AI agents are autonomous systems that can reason, plan, and act.'}
+2026-02-15 18:38:03,313 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 18:38:03,860 | INFO | mcp-agent | Primary LLM success
+2026-02-15 18:38:03,865 | INFO | mcp-agent | Tool execution success | tool=summarize_text
+2026-02-15 18:38:03,865 | INFO | mcp-agent | Agent step 2
+2026-02-15 18:38:03,865 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 18:38:04,480 | INFO | mcp-agent | Primary LLM success
+2026-02-15 18:55:11,494 | INFO | mcp-agent | Agent request | session=default
+2026-02-15 18:55:11,508 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 18:55:12,633 | INFO | mcp-agent | Primary LLM success
+2026-02-15 18:55:12,640 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 18:55:13,281 | INFO | mcp-agent | Primary LLM success
+2026-02-15 18:55:13,282 | WARNING | mcp-agent | Invalid plan: Unknown tool: default
+2026-02-15 20:29:05,037 | INFO | mcp-agent | Agent request | session=default
+2026-02-15 20:29:05,052 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 20:29:06,145 | INFO | mcp-agent | Primary LLM success
+2026-02-15 20:29:06,155 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 20:29:06,905 | INFO | mcp-agent | Primary LLM success
+2026-02-15 20:29:06,905 | WARNING | mcp-agent | Invalid plan: Unknown tool: chat
+2026-02-15 20:29:06,906 | INFO | mcp-agent | Agent step 1
+2026-02-15 20:29:06,906 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 20:29:07,520 | INFO | mcp-agent | Primary LLM success
+2026-02-15 20:30:41,614 | INFO | mcp-agent | Agent request | session=default
+2026-02-15 20:30:41,630 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 20:30:42,807 | INFO | mcp-agent | Primary LLM success
+2026-02-15 20:30:42,815 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 20:30:43,457 | INFO | mcp-agent | Primary LLM success
+2026-02-15 20:30:43,457 | INFO | mcp-agent | Execution plan: {'steps': [{'action': 'summarize_text', 'tool_name': 'summarize_text', 'purpose': 'to condense the given text into a shorter form'}]}
+2026-02-15 20:30:43,458 | INFO | mcp-agent | Agent step 1
+2026-02-15 20:30:43,458 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 20:30:44,118 | INFO | mcp-agent | Primary LLM success
+2026-02-15 20:31:49,644 | INFO | mcp-agent | Agent request | session=default
+2026-02-15 20:31:49,654 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 20:31:50,617 | INFO | mcp-agent | Primary LLM success
+2026-02-15 20:31:50,624 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 20:31:51,314 | INFO | mcp-agent | Primary LLM success
+2026-02-15 20:31:51,315 | WARNING | mcp-agent | Invalid plan: Unknown tool: chat
+2026-02-15 20:31:51,315 | INFO | mcp-agent | Agent step 1
+2026-02-15 20:31:51,316 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 20:31:51,926 | INFO | mcp-agent | Primary LLM success
+2026-02-15 20:32:56,567 | INFO | mcp-agent | Agent request | session=default
+2026-02-15 20:32:56,581 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 20:32:57,569 | INFO | mcp-agent | Primary LLM success
+2026-02-15 20:32:57,577 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 20:32:58,211 | INFO | mcp-agent | Primary LLM success
+2026-02-15 20:32:58,212 | WARNING | mcp-agent | Invalid plan: Unknown tool: chat
+2026-02-15 20:32:58,212 | INFO | mcp-agent | Agent step 1
+2026-02-15 20:32:58,212 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 20:32:58,981 | INFO | mcp-agent | Primary LLM success
+2026-02-15 20:33:05,940 | INFO | mcp-agent | Agent request | session=default
+2026-02-15 20:33:05,956 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 20:33:06,853 | INFO | mcp-agent | Primary LLM success
+2026-02-15 20:33:06,860 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 20:33:07,631 | INFO | mcp-agent | Primary LLM success
+2026-02-15 20:33:07,631 | WARNING | mcp-agent | Invalid plan: Unknown tool: chat
+2026-02-15 20:33:07,632 | INFO | mcp-agent | Agent step 1
+2026-02-15 20:33:07,632 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 20:33:08,386 | INFO | mcp-agent | Primary LLM success
+2026-02-15 20:33:25,299 | INFO | mcp-agent | Agent request | session=default
+2026-02-15 20:33:25,310 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 20:33:26,255 | INFO | mcp-agent | Primary LLM success
+2026-02-15 20:33:26,268 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 20:33:26,932 | INFO | mcp-agent | Primary LLM success
+2026-02-15 20:33:26,932 | WARNING | mcp-agent | Invalid plan: Unknown tool: chat
+2026-02-15 20:33:26,933 | INFO | mcp-agent | Agent step 1
+2026-02-15 20:33:26,933 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 20:33:27,717 | INFO | mcp-agent | Primary LLM success
+2026-02-15 20:33:43,289 | INFO | mcp-agent | Agent request | session=default
+2026-02-15 20:33:43,299 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 20:33:44,351 | INFO | mcp-agent | Primary LLM success
+2026-02-15 20:33:44,361 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 20:33:44,975 | INFO | mcp-agent | Primary LLM success
+2026-02-15 20:33:44,975 | INFO | mcp-agent | Execution plan: {'steps': [{'action': 'tool/chat', 'tool_name': 'summarize_text', 'purpose': 'to summarize the conversation'}]}
+2026-02-15 20:33:44,975 | INFO | mcp-agent | Executing planned tool: summarize_text
+2026-02-15 20:33:44,976 | INFO | mcp-agent | Executing tool | tool=summarize_text | params={'text': 'Summarize conversation'}
+2026-02-15 20:33:44,976 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 20:33:45,610 | INFO | mcp-agent | Primary LLM success
+2026-02-15 20:33:45,614 | INFO | mcp-agent | Tool execution success | tool=summarize_text
+2026-02-15 20:33:45,615 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-15 20:33:46,435 | INFO | mcp-agent | Primary LLM success
