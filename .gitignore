@@ -1,5 +1,7 @@
 
 .env
-logs
+app/logs/agent.log
 __pycache__/
 test.txt
+app/__pycache__/
+app/llm/__pycache__/
