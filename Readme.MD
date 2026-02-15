@@ -1,5 +1,15 @@
 # MCP Agent Platform
 
+## Live Demo
+
+API Documentation:
+[https://mcp-agent-85o5.onrender.com/docs](https://mcp-agent-85o5.onrender.com/docs)
+
+Example endpoint:
+POST /agent/run
+
+---
+
 ## Overview
 
 A production‑ready AI agent backend implementing Model Context Protocol (MCP)‑style tool orchestration with multi‑LLM routing, session memory, structured logging, and containerized deployment. The system is designed to remain vendor‑agnostic while supporting reliable AI automation workflows.
@@ -19,7 +29,7 @@ A production‑ready AI agent backend implementing Model Context Protocol (MCP)�
 
 ## Architecture Overview
 
-User Request → Agent Orchestrator → LLM Router (Groq/Gemini) → Tool Execution Layer → Context Memory + Logs
+User Request → Agent Orchestrator → LLM Router (Groq Primary → Gemini Fallback) → Tool Execution Layer → Context Memory + Logs
 
 This layered architecture ensures reliability, observability, and provider flexibility.
 
@@ -127,7 +137,7 @@ POST /agent/run
 * Multi‑agent specialization
 * Vector database memory
 * Monitoring dashboard
-* Public cloud deployment optimization
+* Further production optimization
 
 ---
 
@@ -140,5 +150,3 @@ GitHub: [https://github.com/yashkashte5](https://github.com/yashkashte5)
 LinkedIn: [https://www.linkedin.com/in/yash-kashte/](https://www.linkedin.com/in/yash-kashte/)
 
 ---
-
-
