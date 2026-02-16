@@ -10,6 +10,7 @@ from app.agents.planner import planner
 from app.agents.plan_validator import validate_plan
 import uuid
 from app.memory.vector_store import retrieve_memory, store_memory
+from datetime import datetime
 
 
 class AgentOrchestrator:
@@ -123,6 +124,7 @@ class AgentOrchestrator:
                 # Store meaningful conversations only
                 if len(prompt.split()) > 6 and "?" not in prompt:
                     try:
+                        now = datetime.utcnow().isoformat()
                         store_memory(
                             f"User: {prompt}\nAssistant: {final_response}",
                             {
