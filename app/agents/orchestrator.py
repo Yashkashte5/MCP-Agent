@@ -132,6 +132,7 @@ IMPORTANT RULES:
 
         current_prompt = system_prompt + "\nUser: " + prompt
         max_steps = 3
+        executed_tools = set()
         response = ""
 
         for step in range(max_steps):
@@ -149,6 +150,15 @@ IMPORTANT RULES:
                 tool_name = decision.get("tool_name")
                 params = decision.get("params", {})
 
+                if not tool_name:
+                    logger.warning("Tool name missing")
+                    break
+
+                if tool_name in executed_tools:
+                    logger.warning("Repeated tool call blocked")
+                    break
+
+                executed_tools.add(tool_name)
                 logger.info(f"Tool chosen: {tool_name}")
 
                 result = await executor.execute(

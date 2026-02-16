@@ -391,3 +391,24 @@
 2026-02-15 20:33:45,614 | INFO | mcp-agent | Tool execution success | tool=summarize_text
 2026-02-15 20:33:45,615 | INFO | mcp-agent | LLM request | provider=groq
 2026-02-15 20:33:46,435 | INFO | mcp-agent | Primary LLM success
+2026-02-16 10:25:30,831 | INFO | mcp-agent | Agent request | session=default
+2026-02-16 10:25:30,840 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 10:25:32,073 | INFO | mcp-agent | Primary LLM success
+2026-02-16 10:32:22,290 | INFO | mcp-agent | Agent request | session=default
+2026-02-16 10:32:22,306 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 10:32:23,314 | INFO | mcp-agent | Primary LLM success
+2026-02-16 10:32:23,322 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 10:32:23,901 | INFO | mcp-agent | Primary LLM success
+2026-02-16 10:32:23,901 | INFO | mcp-agent | Execution plan: {'steps': []}
+2026-02-16 10:32:23,901 | INFO | mcp-agent | Agent step 1
+2026-02-16 10:32:23,902 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 10:32:24,684 | INFO | mcp-agent | Primary LLM success
+2026-02-16 10:34:02,461 | INFO | mcp-agent | Agent request | session=default
+2026-02-16 10:34:02,474 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 10:34:03,554 | INFO | mcp-agent | Primary LLM success
+2026-02-16 10:34:03,562 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 10:34:04,130 | INFO | mcp-agent | Primary LLM success
+2026-02-16 10:34:04,131 | INFO | mcp-agent | Execution plan: {'steps': []}
+2026-02-16 10:34:04,131 | INFO | mcp-agent | Agent step 1
+2026-02-16 10:34:04,131 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 10:34:04,890 | INFO | mcp-agent | Primary LLM success

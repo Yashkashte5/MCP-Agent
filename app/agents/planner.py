@@ -7,27 +7,35 @@ class AgentPlanner:
 
     async def create_plan(self, prompt: str, tools: list):
         planner_prompt = f"""
-You are an AI planning agent.
-
-User request:
-{prompt}
+You are a planning agent for an AI system.
 
 Available tools:
 {tools}
 
-Create a short execution plan.
+STRICT RULES:
 
-Respond ONLY JSON:
+- Only use tools from the provided list.
+- NEVER invent tool names.
+- If the user request can be answered directly,
+  return:
 
 {{
-"steps": [
-  {{
-    "action": "tool/chat",
-    "tool_name": "...",
-    "purpose": "why needed"
-  }}
-]
+  "steps": []
 }}
+
+- Only call tools when absolutely necessary.
+- Each step MUST follow:
+
+{{
+  "action": "tool",
+  "tool_name": "...",
+  "purpose": "why tool is needed"
+}}
+
+Output ONLY valid JSON.
+No explanations.
+No extra text.
+
 """
 
         response = await router.generate(planner_prompt)
