@@ -32,6 +32,7 @@ STRICT RULES:
   "purpose": "why tool is needed"
 }}
 
+
 Output ONLY valid JSON.
 No explanations.
 No extra text.

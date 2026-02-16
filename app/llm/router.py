@@ -21,25 +21,6 @@ class LLMRouter:
         return GeminiAdapter()
 
     async def generate(self, prompt: str):
-
-        primary_model = self.get_primary()
-
-        try:
-            return await primary_model.generate(prompt)
-
-        except Exception as primary_error:
-            print("Primary LLM failed:", primary_error)
-
-            fallback_model = self.get_fallback()
-
-            try:
-                return await fallback_model.generate(prompt)
-
-            except Exception as fallback_error:
-                print("Fallback also failed:", fallback_error)
-                return "LLM services temporarily unavailable."
-    async def generate(self, prompt: str):
-
         primary_model = self.get_primary()
 
         logger.info(f"LLM request | provider={self.primary}")

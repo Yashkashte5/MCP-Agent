@@ -412,3 +412,225 @@
 2026-02-16 10:34:04,131 | INFO | mcp-agent | Agent step 1
 2026-02-16 10:34:04,131 | INFO | mcp-agent | LLM request | provider=groq
 2026-02-16 10:34:04,890 | INFO | mcp-agent | Primary LLM success
+2026-02-16 10:54:42,370 | INFO | mcp-agent | Agent trace started | trace_id=00082139-1635-40c1-8586-f065afd7f8de
+2026-02-16 10:54:42,379 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 10:54:45,517 | INFO | mcp-agent | Primary LLM success
+2026-02-16 10:54:45,528 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 10:54:46,070 | INFO | mcp-agent | Primary LLM success
+2026-02-16 10:54:46,070 | INFO | mcp-agent | Execution plan: {'steps': []}
+2026-02-16 10:54:46,070 | INFO | mcp-agent | Agent step 1
+2026-02-16 10:54:46,071 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 10:54:46,730 | INFO | mcp-agent | Primary LLM success
+2026-02-16 12:01:52,416 | INFO | mcp-agent | Agent trace started | trace_id=ff6d5db9-ca1e-401c-9dff-32206cc222e5
+2026-02-16 12:01:52,684 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 12:01:54,038 | INFO | mcp-agent | Primary LLM success
+2026-02-16 12:01:54,053 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 12:01:54,605 | INFO | mcp-agent | Primary LLM success
+2026-02-16 12:01:54,606 | INFO | mcp-agent | Execution plan: {'steps': []}
+2026-02-16 12:01:54,606 | INFO | mcp-agent | Agent step 1
+2026-02-16 12:01:54,606 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 12:01:55,330 | INFO | mcp-agent | Primary LLM success
+2026-02-16 12:01:55,372 | ERROR | mcp-agent | Memory store failed: Expected metadata to be a non-empty dict, got 0 metadata attributes in add.
+2026-02-16 12:02:23,747 | INFO | mcp-agent | Agent trace started | trace_id=cda4b57d-4198-47fa-92f6-8b3ba2be2e24
+2026-02-16 12:02:23,783 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 12:02:25,015 | INFO | mcp-agent | Primary LLM success
+2026-02-16 12:02:25,023 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 12:02:25,560 | INFO | mcp-agent | Primary LLM success
+2026-02-16 12:02:25,561 | INFO | mcp-agent | Execution plan: {'steps': []}
+2026-02-16 12:02:25,561 | INFO | mcp-agent | Agent step 1
+2026-02-16 12:02:25,561 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 12:02:26,385 | INFO | mcp-agent | Primary LLM success
+2026-02-16 12:02:26,445 | ERROR | mcp-agent | Memory store failed: Expected metadata to be a non-empty dict, got 0 metadata attributes in add.
+2026-02-16 12:02:41,137 | INFO | mcp-agent | Agent trace started | trace_id=959475ec-4d28-494f-8977-e27a86735c4f
+2026-02-16 12:02:41,165 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 12:02:42,443 | INFO | mcp-agent | Primary LLM success
+2026-02-16 12:02:42,452 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 12:02:43,287 | INFO | mcp-agent | Primary LLM success
+2026-02-16 12:02:43,287 | INFO | mcp-agent | Execution plan: {'steps': []}
+2026-02-16 12:02:43,288 | INFO | mcp-agent | Agent step 1
+2026-02-16 12:02:43,288 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 12:02:44,096 | INFO | mcp-agent | Primary LLM success
+2026-02-16 12:09:55,748 | INFO | mcp-agent | Agent trace started | trace_id=6e85be15-d4bb-4e81-846b-41256c47bc47
+2026-02-16 12:09:55,819 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 12:09:56,896 | INFO | mcp-agent | Primary LLM success
+2026-02-16 12:09:56,905 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 12:09:57,478 | INFO | mcp-agent | Primary LLM success
+2026-02-16 12:09:57,479 | INFO | mcp-agent | Execution plan: {'steps': []}
+2026-02-16 12:09:57,479 | INFO | mcp-agent | Agent step 1
+2026-02-16 12:09:57,479 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 12:09:58,259 | INFO | mcp-agent | Primary LLM success
+2026-02-16 12:10:47,155 | INFO | mcp-agent | Agent trace started | trace_id=7cdd0f1b-15a6-4e22-919a-4875110799ec
+2026-02-16 12:10:47,198 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 12:10:48,208 | INFO | mcp-agent | Primary LLM success
+2026-02-16 12:10:48,218 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 12:10:48,769 | INFO | mcp-agent | Primary LLM success
+2026-02-16 12:10:48,769 | INFO | mcp-agent | Execution plan: {'steps': []}
+2026-02-16 12:10:48,770 | INFO | mcp-agent | Agent step 1
+2026-02-16 12:10:48,770 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 12:10:49,588 | INFO | mcp-agent | Primary LLM success
+2026-02-16 12:26:02,819 | INFO | mcp-agent | Agent trace started | trace_id=9df85138-131a-4e61-a25d-f1dcfa5a1b24
+2026-02-16 12:26:02,879 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 12:26:03,984 | INFO | mcp-agent | Primary LLM success
+2026-02-16 12:26:03,993 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 12:26:04,761 | INFO | mcp-agent | Primary LLM success
+2026-02-16 12:26:04,762 | INFO | mcp-agent | Execution plan: {'steps': []}
+2026-02-16 12:26:04,762 | INFO | mcp-agent | Agent step 1
+2026-02-16 12:26:04,762 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 12:26:06,166 | INFO | mcp-agent | Primary LLM success
+2026-02-16 12:26:22,383 | INFO | mcp-agent | Agent trace started | trace_id=68663047-a1d2-4656-854c-20f0675b6452
+2026-02-16 12:26:22,435 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 12:26:23,531 | INFO | mcp-agent | Primary LLM success
+2026-02-16 12:26:23,538 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 12:26:24,074 | INFO | mcp-agent | Primary LLM success
+2026-02-16 12:26:24,074 | INFO | mcp-agent | Execution plan: {'steps': []}
+2026-02-16 12:26:24,074 | INFO | mcp-agent | Agent step 1
+2026-02-16 12:26:24,075 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 12:26:24,805 | INFO | mcp-agent | Primary LLM success
+2026-02-16 12:27:09,085 | INFO | mcp-agent | Agent trace started | trace_id=ca3c049b-a23c-49ee-a2db-3aee6b788e08
+2026-02-16 12:27:09,111 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 12:27:10,079 | INFO | mcp-agent | Primary LLM success
+2026-02-16 12:27:10,087 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 12:27:10,649 | INFO | mcp-agent | Primary LLM success
+2026-02-16 12:27:10,649 | INFO | mcp-agent | Execution plan: {'steps': []}
+2026-02-16 12:27:10,649 | INFO | mcp-agent | Agent step 1
+2026-02-16 12:27:10,649 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 12:27:11,397 | INFO | mcp-agent | Primary LLM success
+2026-02-16 12:27:28,496 | INFO | mcp-agent | Agent trace started | trace_id=14a894c9-2c4e-41ab-9357-42d9b453a42e
+2026-02-16 12:27:28,530 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 12:27:29,539 | INFO | mcp-agent | Primary LLM success
+2026-02-16 12:27:29,555 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 12:27:30,085 | INFO | mcp-agent | Primary LLM success
+2026-02-16 12:27:30,085 | INFO | mcp-agent | Execution plan: {'steps': []}
+2026-02-16 12:27:30,086 | INFO | mcp-agent | Agent step 1
+2026-02-16 12:27:30,086 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 12:27:30,747 | INFO | mcp-agent | Primary LLM success
+2026-02-16 12:55:05,186 | INFO | mcp-agent | Agent trace started | trace_id=9b99ccad-563a-4461-8ef6-f224ce03eda3
+2026-02-16 12:55:05,196 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 12:55:06,480 | INFO | mcp-agent | Primary LLM success
+2026-02-16 12:55:06,488 | INFO | mcp-agent | Agent step 1
+2026-02-16 12:55:06,488 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 12:55:07,283 | INFO | mcp-agent | Primary LLM success
+2026-02-16 12:55:28,586 | INFO | mcp-agent | Agent trace started | trace_id=c302a666-1f8e-45ee-b839-0c941630da40
+2026-02-16 12:55:28,903 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 12:55:29,910 | INFO | mcp-agent | Primary LLM success
+2026-02-16 12:55:29,920 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 12:55:30,503 | INFO | mcp-agent | Primary LLM success
+2026-02-16 12:55:30,503 | INFO | mcp-agent | Execution plan: {'steps': []}
+2026-02-16 12:55:30,504 | INFO | mcp-agent | Agent step 1
+2026-02-16 12:55:30,504 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 12:55:31,285 | INFO | mcp-agent | Primary LLM success
+2026-02-16 12:56:10,016 | INFO | mcp-agent | Agent trace started | trace_id=3302195f-9db7-4cf5-b305-cd19eabde461
+2026-02-16 12:56:10,048 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 12:56:11,232 | INFO | mcp-agent | Primary LLM success
+2026-02-16 12:56:11,239 | INFO | mcp-agent | Agent step 1
+2026-02-16 12:56:11,239 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 12:56:12,008 | INFO | mcp-agent | Primary LLM success
+2026-02-16 12:56:32,110 | INFO | mcp-agent | Agent trace started | trace_id=7559d326-fc79-4b26-b4e8-be8ccd87f21d
+2026-02-16 12:56:32,140 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 12:56:33,689 | INFO | mcp-agent | Primary LLM success
+2026-02-16 12:56:33,697 | INFO | mcp-agent | Agent step 1
+2026-02-16 12:56:33,697 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 12:56:34,481 | INFO | mcp-agent | Primary LLM success
+2026-02-16 12:57:00,515 | INFO | mcp-agent | Agent trace started | trace_id=7c3f10bf-d267-42d6-b3d9-72484ec53e32
+2026-02-16 12:57:00,532 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 12:57:01,660 | INFO | mcp-agent | Primary LLM success
+2026-02-16 12:57:01,674 | INFO | mcp-agent | Agent step 1
+2026-02-16 12:57:01,675 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 12:57:02,328 | INFO | mcp-agent | Primary LLM success
+2026-02-16 12:57:13,032 | INFO | mcp-agent | Agent trace started | trace_id=475c0582-4d23-42c3-af1b-5c324fb2ba37
+2026-02-16 12:57:13,044 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 12:57:14,111 | INFO | mcp-agent | Primary LLM success
+2026-02-16 12:57:14,118 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 12:57:14,668 | INFO | mcp-agent | Primary LLM success
+2026-02-16 12:57:14,668 | INFO | mcp-agent | Execution plan: {'steps': []}
+2026-02-16 12:57:14,668 | INFO | mcp-agent | Agent step 1
+2026-02-16 12:57:14,668 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 12:57:15,434 | INFO | mcp-agent | Primary LLM success
+2026-02-16 13:02:35,271 | INFO | mcp-agent | Agent trace started | trace_id=a3961303-b1ec-4f59-b60b-1a9b725186d2
+2026-02-16 13:02:35,312 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 13:02:36,381 | INFO | mcp-agent | Primary LLM success
+2026-02-16 13:02:36,389 | INFO | mcp-agent | Agent step 1
+2026-02-16 13:02:36,390 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 13:02:37,211 | INFO | mcp-agent | Primary LLM success
+2026-02-16 13:03:02,608 | INFO | mcp-agent | Agent trace started | trace_id=6ae71f34-c737-45b2-a141-fb772980f672
+2026-02-16 13:03:02,638 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 13:03:03,631 | INFO | mcp-agent | Primary LLM success
+2026-02-16 13:03:03,640 | INFO | mcp-agent | Agent step 1
+2026-02-16 13:03:03,641 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 13:03:04,319 | INFO | mcp-agent | Primary LLM success
+2026-02-16 13:03:23,388 | INFO | mcp-agent | Agent trace started | trace_id=e412b1dc-d8c0-4dff-8f60-923b38e95c37
+2026-02-16 13:03:23,422 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 13:03:24,609 | INFO | mcp-agent | Primary LLM success
+2026-02-16 13:03:24,616 | INFO | mcp-agent | Agent step 1
+2026-02-16 13:03:24,617 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 13:03:25,326 | INFO | mcp-agent | Primary LLM success
+2026-02-16 13:05:44,201 | INFO | mcp-agent | Agent trace started | trace_id=65378fc2-e69f-4e2d-b25b-af5615f29add
+2026-02-16 13:05:44,261 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 13:05:45,279 | INFO | mcp-agent | Primary LLM success
+2026-02-16 13:05:45,288 | INFO | mcp-agent | Agent step 1
+2026-02-16 13:05:45,288 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 13:05:46,226 | INFO | mcp-agent | Primary LLM success
+2026-02-16 13:06:02,058 | INFO | mcp-agent | Agent trace started | trace_id=8a0733b0-214d-447d-a5b7-34dc76b6a940
+2026-02-16 13:06:02,088 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 13:06:03,265 | INFO | mcp-agent | Primary LLM success
+2026-02-16 13:06:03,273 | INFO | mcp-agent | Agent step 1
+2026-02-16 13:06:03,273 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 13:06:04,131 | INFO | mcp-agent | Primary LLM success
+2026-02-16 13:06:29,095 | INFO | mcp-agent | Agent trace started | trace_id=8a8d680c-d957-471a-a72f-c557a8199b5f
+2026-02-16 13:06:29,125 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 13:06:30,408 | INFO | mcp-agent | Primary LLM success
+2026-02-16 13:06:30,417 | INFO | mcp-agent | Agent step 1
+2026-02-16 13:06:30,417 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 13:06:31,731 | INFO | mcp-agent | Primary LLM success
+2026-02-16 13:07:13,300 | INFO | mcp-agent | Agent trace started | trace_id=6460c68b-406e-422a-a470-cd9c6a86d991
+2026-02-16 13:07:13,309 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 13:07:14,765 | INFO | mcp-agent | Primary LLM success
+2026-02-16 13:07:14,780 | INFO | mcp-agent | Agent step 1
+2026-02-16 13:07:14,780 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 13:07:15,863 | INFO | mcp-agent | Primary LLM success
+2026-02-16 13:07:47,961 | INFO | mcp-agent | Agent trace started | trace_id=007b7568-64c4-4083-b8a8-940c0c283886
+2026-02-16 13:07:48,015 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 13:07:49,569 | INFO | mcp-agent | Primary LLM success
+2026-02-16 13:07:49,583 | INFO | mcp-agent | Agent step 1
+2026-02-16 13:07:49,584 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 13:07:50,346 | INFO | mcp-agent | Primary LLM success
+2026-02-16 13:08:25,897 | INFO | mcp-agent | Agent trace started | trace_id=0094bfb9-cdff-4c3d-b9c8-4bc8e47e9055
+2026-02-16 13:08:25,933 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 13:08:27,210 | INFO | mcp-agent | Primary LLM success
+2026-02-16 13:08:27,219 | INFO | mcp-agent | Agent step 1
+2026-02-16 13:08:27,219 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 13:08:28,069 | INFO | mcp-agent | Primary LLM success
+2026-02-16 13:08:55,672 | INFO | mcp-agent | Agent trace started | trace_id=37136f2c-070f-41cd-a5c7-ce9d3079e67b
+2026-02-16 13:08:55,710 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 13:08:57,079 | INFO | mcp-agent | Primary LLM success
+2026-02-16 13:08:57,088 | INFO | mcp-agent | Agent step 1
+2026-02-16 13:08:57,088 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 13:08:58,120 | INFO | mcp-agent | Primary LLM success
+2026-02-16 13:09:16,919 | INFO | mcp-agent | Agent trace started | trace_id=c7ea5d0e-6fd9-42c0-921b-8074e6b69f3f
+2026-02-16 13:09:16,951 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 13:09:18,131 | INFO | mcp-agent | Primary LLM success
+2026-02-16 13:09:18,145 | INFO | mcp-agent | Agent step 1
+2026-02-16 13:09:18,145 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 13:09:18,802 | INFO | mcp-agent | Primary LLM success
+2026-02-16 13:09:41,725 | INFO | mcp-agent | Agent trace started | trace_id=9f7289cd-f8c4-4c66-9020-d4b21d309bbd
+2026-02-16 13:09:41,764 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 13:09:43,365 | INFO | mcp-agent | Primary LLM success
+2026-02-16 13:09:43,373 | INFO | mcp-agent | Agent step 1
+2026-02-16 13:09:43,373 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 13:09:44,181 | INFO | mcp-agent | Primary LLM success
+2026-02-16 16:22:19,920 | INFO | mcp-agent | Agent trace started | trace_id=2a52fb65-d325-4ee7-9241-18f8be5d2beb
+2026-02-16 16:22:19,935 | INFO | mcp-agent | Agent step 1
+2026-02-16 16:22:19,936 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 16:22:20,936 | INFO | mcp-agent | Primary LLM success
+2026-02-16 17:37:58,465 | INFO | mcp-agent | Agent trace started | trace_id=9b54f3c5-4d4d-48d5-b85a-1e801524b4c2
+2026-02-16 17:37:58,475 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 17:37:59,396 | INFO | mcp-agent | Primary LLM success
+2026-02-16 17:37:59,404 | INFO | mcp-agent | Agent step 1
+2026-02-16 17:37:59,404 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 17:38:00,178 | INFO | mcp-agent | Primary LLM success
+2026-02-16 17:38:19,353 | INFO | mcp-agent | Agent trace started | trace_id=7e746753-23ea-4e1e-acc3-fd0bfb4102e5
+2026-02-16 17:38:19,362 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 17:38:20,524 | INFO | mcp-agent | Primary LLM success
+2026-02-16 17:38:20,532 | INFO | mcp-agent | Agent step 1
+2026-02-16 17:38:20,533 | INFO | mcp-agent | LLM request | provider=groq
+2026-02-16 17:38:21,298 | INFO | mcp-agent | Primary LLM success
